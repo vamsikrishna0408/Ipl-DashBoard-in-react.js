@@ -1,0 +1,26 @@
+.not-found-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 767px) {
+  .not-found-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 767px) {
+  .heading {
+    font-size: 42px;
+  }
+}
